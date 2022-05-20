@@ -1,0 +1,18 @@
+name: Notes
+version: '${project.version}'
+author: Raphael CANDELARESI (Raph' le Flamboyant)
+main: me.flamboyant.notes.Main
+api-version: 1.18
+description: Minecraft bloc note
+commands:
+  txt:
+    description: Notes write and read
+    permission: txt.use
+  txt_info:
+    description: Get plugin information
+    permission: txt_info.use
+permissions:
+  txt.use:
+    default: true
+  txt_info.use:
+    default: true
